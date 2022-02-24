@@ -1,0 +1,78 @@
+/* Start Header area style
+============================================================================================ */
+
+.sticky-wrapper {
+    position: absolute;
+    width: 100%;
+    &.is-sticky {
+        .header-area {
+            background: #0F0D3A;
+            box-shadow: 0 5px 10px #0000001a;
+            padding: 10px 0;
+            .navbar-brand {
+                margin-bottom: 0;
+                img {
+                    max-width: 50px;
+                }
+            }
+        }
+    }
+}
+
+.header-area {
+    position: absolute;
+    z-index: 999;
+    @include transition();
+    background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+    .navbar-brand {
+        margin-bottom: 0;
+        img {
+            @include transition();
+        }
+    }
+    &.active {
+        box-shadow: 0 5px 10px #dddddd1a;
+    }
+    .navbar {
+        background: transparent;
+        padding: 0px;
+        border: 0px;
+        border-radius: 0px;
+        .navbar-brand {
+            min-width: 100px;
+            display: block;
+            @include transition();
+        }
+        .navbar-nav {
+            .nav-item {
+                &:not(:last-child) {
+                    margin-right: 50px;
+                }
+                a {
+                    font-size: 18px;
+                    color: #fff;
+                    padding: 0px;
+                    @include transition();
+                    font-weight: 600;
+                }
+            }
+            .nav-item:hover>a {
+                color: $primary-color;
+            }
+        }
+        .header-btn {
+            display: flex;
+            align-items: center;
+            .primary-btn {
+                background: $white;
+                padding: 12px 31px;
+                &:hover {
+                    background: $primary-color;
+                }
+            }
+        }
+    }
+}
