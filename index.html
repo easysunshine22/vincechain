@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/modal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -62,7 +64,7 @@
                     <div class="banner-content wow fadeIn">
                         <h1>Decentralized
                             Blockchain for
-                            the <span>metaverse</span></h1>
+                            the <span><span id="words">metaverse</span></span></h1>
                         <p>Vince is a blockchain powering the Vangold Ecosystem and its products</p>
                         <a target="_blank" href="https://t.me/vangoldcorporation" class="primary-btn">Join Us </a>
                     </div>
@@ -220,7 +222,7 @@
                         <div class="single-vangold-slider">
                             <img src="assets/img/non-fungible-token.png" alt="">
                             <h3>Vangold NFT</h3>
-                            <p>A marketplace for digital curating arts and collectibles. Powered by the Binance Smart Chain (BSC) network.</p>
+                            <p>A marketplace for digital curating arts and collectibles. Powered by the Vince Chain (VCE) network.</p>
                         </div>
                         <!-- single vangold slider  -->
                         <div class="single-vangold-slider">
@@ -419,6 +421,16 @@
     <script src="assets/js/main.js "></script>
     <script src="assets/js/modal.js "></script>
     <script src="assets/js/modal2.js "></script>
+
+    <script type="text/javascript">
+        (function () {
+          var words = ["metaverse", "Web 3","Freelancing","Gaming"],
+          i = 0;
+          setInterval(function(){ $('#words').fadeOut(function(){
+              $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+            }); }, 3000)
+        })();
+      </script>
 
 </body>
 

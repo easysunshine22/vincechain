@@ -339,6 +339,8 @@ img {
     font-size: 80px;
     margin-bottom: 25px; }
     .banner-area .banner-content h1 span {
+      /* text-decoration: underline;     
+            text-decoration-color: red;   */
       color: #FFCA00;
       font-weight: 800; }
   .banner-area .banner-content p {
@@ -616,4 +618,7 @@ img {
 }
 .videooo-container{
   /* border: 1px solid red; */
+}
+.words{
+  text-decoration: underline;
 }
