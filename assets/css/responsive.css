@@ -70,7 +70,7 @@
 
 @media (max-width: 1199px) {
     .header-area {
-        background: #0F0D3A;
+        background: transparent;
         padding: 10px 0;
     }
     .sticky-wrapper.is-sticky .header-area {
@@ -87,6 +87,10 @@
         border-radius: 0px;
         padding: 0px;
         cursor: pointer;
+        height: 40px;
+        width: 40px;
+        background: #FFCA00;
+        border-radius: 50%;
     }
     .navbar-toggler:focus {
         outline: none;
@@ -94,9 +98,9 @@
     }
     .navbar-toggler span {
         display: block;
-        width: 25px;
+        width: 20px;
         height: 3px;
-        background: #FFCA00;
+        background: #fff;
         margin: auto;
         margin-bottom: 4px;
         transition: all 400ms linear;
@@ -110,6 +114,7 @@
     }
     .navbar-toggler[aria-expanded=false] span:nth-child(2) {
         opacity: 1;
+        width: 15px;
     }
     .navbar-toggler[aria-expanded=true] span:nth-child(2) {
         opacity: 0;
@@ -198,7 +203,7 @@
         margin-left: 0;
     }
     .cta2-area {
-        text-align: center;
+        text-align: left;
     }
     .blog-area .single-blog img {
         width: 100%;
@@ -208,6 +213,18 @@
     }
     .banner-area .banner-thumb {
         padding-right: 0;
+    }
+    .footer-area .footer-widget .footer-social {
+        margin-top: 40px;
+    }
+    .footer-area .footer-widget .footer-title {
+        margin: 0 0 30px;
+    }
+    .footer-widget {
+        margin-bottom: 50px;
+    }
+    .footer-area {
+        padding: 100px 0 50px!important;
     }
 }
 
@@ -228,12 +245,25 @@
         margin: 30px 0;
     }
     .banner-area {
-        padding: 150px 0 80px;
+        padding: 120px 0 20px;
+    }
+    .header-area .navbar-brand img {
+        max-width: 50px;
+    }
+    .banner-area .banner-content p {
+        padding-right: 0;
     }
 }
 
 @media (max-width: 575px) {
-
+    .banner-area {
+        background: url(../img/bg/banner-mobile-bg.png) center no-repeat;
+        background-size: cover;
+    }
+    .footer-area {
+        background: url(../img/bg/footer-bg-mobile.png) center no-repeat;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 425px) {
@@ -272,15 +302,43 @@
     }
     .cta2-area .primary-btn {
         font-size: 20px;
-        min-width: 100%;
-        padding: 16px 40px;
+        min-width: auto;
+        padding: 13px 37px;
     }
     .footer-area .footer-widget .form-group .primary-btn {
         position: inherit;
         right: 0;
         top: 15px;
     }
+    .footer-area .footer-widget .footer-title {
+        font-size: 24px;
+    }
+    .footer-area .footer-widget .form-group input {
+        line-height: 50px;
+        opacity: 1;
+        border: 1px solid #FFC526;
+    }
+    .footer-area .footer-widget .form-group .primary-btn {
+        line-height: 50px;
+    }
+    .primary-btn {
+        font-size: 16px;
+        padding: 12px 22px;
+    }
+    .banner-area .banner-content p {
+        font-size: 16px;
+    }
+    .footer-area .footer-widget .footer-logo img {
+        max-width: 50px;
+    }
+    .banner-thumb .desktop-thumb {
+        display: none;
+    }
+    .banner-area .banner-thumb .mobile-thumb {
+        display: block;
+    }
 }
+
 
 @media (max-width: 375px) {
     
