@@ -610,6 +610,10 @@ img {
 }
 .videooo{
   max-width: 100%;
+  border: 1px solid red;
   /* height: 100%; */
-  border: 1px solid gggZZZZ;
+  border-radius: 30px;
+}
+.videooo-container{
+  /* border: 1px solid red; */
 }
