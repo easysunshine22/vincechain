@@ -576,3 +576,35 @@ img {
 .the_vangold_ecosystem_link:hover{
   color: #fff;
 }
+.terms .sub-heading .contain {
+  width: 77.088%;
+  margin: 0 auto;
+}
+.terms .sec1 {
+  padding-bottom: 200px;
+}
+.terms .sec1 {
+  width: 77.088%;
+  margin: 0 auto;
+  padding: 38px 0;
+}
+.terms .sec1 h2{
+  font-size: 24px;
+}
+.terms .sec1 h3{
+  font-size: 18.72px;
+}
+.cookie .sec1 {
+  padding-bottom: 200px;
+}
+.cookie .sec1 {
+  width: 77.088%;
+  margin: 0 auto;
+  padding: 38px 0;
+}
+.cookie .sec1 h2{
+  font-size: 24px;
+}
+.cookie .sec1 h3{
+  font-size: 18.72px;
+}
