@@ -608,3 +608,8 @@ img {
 .cookie .sec1 h3{
   font-size: 18.72px;
 }
+.videooo{
+  max-width: 100%;
+  /* height: 100%; */
+  border: 1px solid gggZZZZ;
+}
