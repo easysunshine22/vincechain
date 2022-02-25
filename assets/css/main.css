@@ -610,11 +610,11 @@ img {
 .cookie .sec1 h3{
   font-size: 18.72px;
 }
-.videooo{
-  max-width: 100%;
-  border: 1px solid red;
-  /* height: 100%; */
-  border-radius: 30px;
+.video-box-inner img{
+  width: 100%;
+  /* border: 1px solid red; */
+  height: 100%;
+  border-radius: 23px;
 }
 .videooo-container{
   /* border: 1px solid red; */
