@@ -625,3 +625,6 @@ img {
 #triggerTwo{
   margin-top: 20px;
 }
+.caVince{
+  word-break: break-all; /* optional */
+}
