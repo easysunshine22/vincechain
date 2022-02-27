@@ -628,3 +628,52 @@ img {
 .caVince{
   word-break: break-all; /* optional */
 }
+
+/* COUNTDOWN TIMER */
+.countdown-box{
+  position: absolute;
+  padding: 10px;
+  background-color: #947809;
+  opacity: 0.9;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 14px 0px rgba(0,0,0,0.75);
+}
+.countdown-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+.countdown {
+  font-family: sans-serif;
+  color: #000;
+  font-weight: bold;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background: #FFCA00;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #fff;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
