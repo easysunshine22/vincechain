@@ -631,8 +631,13 @@ img {
 
 /* COUNTDOWN TIMER */
 .countdown-box{
-  position: absolute;
-  padding: 10px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  max-width: 320px;
+  /* padding: 10px; */
   background-color: #947809;
   opacity: 0.9;
   border-radius: 10px;
@@ -644,8 +649,8 @@ img {
 .countdown-title {
   color: #fff;
   font-weight: bold;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+  font-size: 30px;
+  margin: 20px 0px 20px;
 }
 
 .countdown {
@@ -655,20 +660,32 @@ img {
   display: inline-block;
   font-weight: bold;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .countdown-number {
   border-radius: 3px;
-  background: #FFCA00;
+  /* background: #FFCA00; */
   display: inline-block;
-  border: 1px solid red;
-  /* width: ; */
-  width: 100px;
+  
 }
-
+.white-bg-btn{
+  background-color: white;
+  font-size: 18px !important;
+  margin: 10px;
+  max-width: 200px;
+  margin: auto;
+  padding: 10px;
+  color: #000;
+  border-radius: 10px;
+}
+.white-bg-btn:hover{
+  color: #fff;
+  background-color: #947809;
+  border: 1px solid #FFCA00;
+}
 .countdown-time {
-  padding: 15px;
+  padding: 10px;
   border-radius: 3px;
   background: #fff;
   display: inline-block;
@@ -678,4 +695,5 @@ img {
   display: block;
   padding-top: 5px;
   font-size: 16px;
+  color: #fff;
 }
