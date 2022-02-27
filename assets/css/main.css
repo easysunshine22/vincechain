@@ -659,10 +659,12 @@ img {
 }
 
 .countdown-number {
-  padding: 10px;
   border-radius: 3px;
   background: #FFCA00;
   display: inline-block;
+  border: 1px solid red;
+  /* width: ; */
+  width: 100px;
 }
 
 .countdown-time {
