@@ -708,3 +708,20 @@ img {
 .audit:hover{
   color: #fff;
 }
+.partners_title{
+  text-align: center;
+}
+.partners-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.partners-image .fegex-img{
+  max-width: 200px;
+}
+.partners-image .coinmarketcap-img{
+  max-width: 500px;
+}
+.partners-image .sgn-capital-img{
+  max-width: 300px;
+}
