@@ -47,5 +47,5 @@ function getTimeRemaining(endtime) {
     var timeinterval = setInterval(updateClock, 1000);
   }
 
-  var deadline = "March 13 2022 08:00:00 GMT+0000";
+  var deadline = "March 15 2022 08:00:00 GMT+0000";
   initializeClock("countdown", deadline);
