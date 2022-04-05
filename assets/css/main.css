@@ -513,7 +513,11 @@ img {
 ============================================================================================ */
 .footer-area {
   background: url(../img/bg/footer-bg.png) center no-repeat;
+  position: relative;
   background-size: cover; }
+  .footer-area .footer-widget .footer-title {
+    position: relative;
+  }
   .footer-area .footer-widget .footer-title {
     font-size: 30px;
     margin: 40px 0; }
@@ -562,13 +566,16 @@ img {
       .footer-area .footer-widget .form-group input::placeholder {
         color: #ffffff;
         opacity: 0.5; }
-    .footer-area .footer-widget .form-group .primary-btn {
+        .optionalParent{
+          position: relative;
+        }
+    .footer-area .footer-widget .primary-btn {
       position: absolute;
       right: 7px;
       line-height: 57px;
       padding: 0 34px;
       font-size: 12px;
-      top: 7px; }
+      top: -67px; }
 
 /*# sourceMappingURL=main.css.map */
 
